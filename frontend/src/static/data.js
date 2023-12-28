@@ -27,7 +27,7 @@ export const navItems = [
     {
       id: 1,
       title: "Free Shipping",
-      Description: "From all orders over 100$",
+      Description: "On Selected orders",
       icon: (
         <svg
           width="36"
@@ -76,7 +76,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Daily Surprise Offers",
+      title: "Maintanance Plus+",
       Description: "Save up to 25% off",
       icon: (
         <svg
@@ -191,66 +191,66 @@ export const navItems = [
   export const categoriesData = [
     {
       id: 1,
-      title: "Chemical Laboratory",
+      title: "Mechanical Calibrations",
       subTitle: "",
       image_Url:
-        "https://cdn.shopify.com/s/files/1/1706/9177/products/NEWAppleMacbookProwithM1ProChip14InchLaptop2021ModelMKGQ3LL_A_16GB_1TBSSD_custommacbd.jpg?v=1659592838",
+        "https://media.gettyimages.com/id/122374048/photo/engineering.jpg?s=612x612&w=0&k=20&c=L9a6m9goXlbbR83-HEfzjwb_NSt0Yj-SxQXgD6rlgAs=",
     },
     {
       id: 2,
-      title: "cosmetics and body care",
+      title: "Thermal Calibrations",
       subTitle: "",
       image_Url:
         "https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2021-07/kosme1.png",
     },
     {
       id: 3,
-      title: "Accesories",
+      title: "Electro-Tech Calibrations",
       subTitle: "",
       image_Url:
         "https://img.freepik.com/free-vector/ordering-goods-online-internet-store-online-shopping-niche-e-commerce-website-mother-buying-babies-clothes-footwear-toys-infant-accessories_335657-2345.jpg?w=2000",
     },
     {
       id: 4,
-      title: "Cloths",
+      title: "Industrial Instruments",
       subTitle: "",
       image_Url:
         "https://www.shift4shop.com/2015/images/industries/clothing/clothing-apparel.png",
     },
     {
       id: 5,
-      title: "Shoes",
+      title: "Laboratories Instruments",
       subTitle: "",
       image_Url:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvBQPQMVNRd6TtDkGs2dCri0Y-rxKkFOiEWw&usqp=CAU",
     },
     {
       id: 6,
-      title: "Gifts",
+      title: "Hallmarking Instruments",
       subTitle: "",
       image_Url:
         "https://securecdn.pymnts.com/wp-content/uploads/2014/11/Gifts-Photo-700x489.jpg",
     },
     {
       id: 7,
-      title: "Pet Care",
+      title: "Safety Equipments",
       subTitle: "",
       image_Url: "https://cdn.openpr.com/T/c/Tc15444071_g.jpg",
     },
     {
       id: 8,
-      title: "Mobile and Tablets",
+      title: "Annual Maintenance/Repairs",
       subTitle: "",
       image_Url:
         "https://st-troy.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/mpwp3tua-apple-iphone-14-256gb-mavi-mpwp3tua-637986832343472449.jpg",
     },
-    {
-      id: 9,
-      title: "Music and Gaming",
-      subTitle: "",
-      image_Url:
-        "https://static.vecteezy.com/system/resources/previews/011/996/555/original/3d-black-headphone-illustration-ecommerce-icon-png.png",
-    },
+    // {
+    //   id: 9,
+    //   title: "",
+    //   subTitle: "",
+    //   image_Url:
+    //     "https://static.vecteezy.com/system/resources/previews/011/996/555/original/3d-black-headphone-illustration-ecommerce-icon-png.png",
+    // },
     {
       id: 10,
       title: "Others",
@@ -605,6 +605,7 @@ export const navItems = [
     },
     {
       name: "Our Blog",
+      link: "/blog"
     },
     {
       name: "Reviews",
@@ -613,19 +614,19 @@ export const navItems = [
   
   export const footercompanyLinks = [
     {
-      name: "Game & Video",
+      name: "Calibrations",
     },
     {
-      name: "Phone &Tablets",
+      name: "Instruments",
     },
     {
-      name: "Computers & Laptop",
+      name: "Safety Equipments",
     },
     {
-      name: "Sport Watches",
+      name: "Annual Maintenance/Repairs",
     },
     {
-      name: "Events",
+      name: "Others",
     },
   ];
   

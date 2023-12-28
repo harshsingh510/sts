@@ -119,11 +119,11 @@ const ProductDetails = ({ data }) => {
           <div className="w-full py-5">
             <div className="block w-full 800px:flex">
               <div className="w-full 800px:w-[50%]">
-                {/* <img
+                <img
                   src={`${data && data.images[select]?.url}`}
                   alt=""
                   className="w-[80%]"
-                /> */}
+                />
                 <div className="w-full flex">
                   {data &&
                     data.images.map((i, index) => (
@@ -132,12 +132,12 @@ const ProductDetails = ({ data }) => {
                           select === 0 ? "border" : "null"
                         } cursor-pointer`}
                       >
-                        <img
+                        {/* <img
                           src={`${i?.url}`}
                           alt=""
                           className="h-[200px] overflow-hidden mr-3 mt-3"
                           onClick={() => setSelect(index)}
-                        />
+                        /> */}
                       </div>
                     ))}
                   <div
@@ -162,16 +162,16 @@ const ProductDetails = ({ data }) => {
                 <div className="flex items-center mt-12 justify-between pr-3">
                   <div>
                     <button
-                      className="bg-gradient-to-r from-teal-400 to-teal-500 text-white font-bold rounded-l px-4 py-2 shadow-lg hover:opacity-75 transition duration-300 ease-in-out"
+                      className="bg-gradient-to-r from-teal-400 to-teal-500 text-white font-bold rounded-l px-4 py-[8px] shadow-lg hover:opacity-75 transition duration-300 ease-in-out"
                       onClick={decrementCount}
                     >
                       -
                     </button>
-                    <span className="bg-gray-200 text-gray-800 font-medium px-4 py-[11px]">
+                    <span className="bg-gray-200 text-gray-800 font-medium px-4 py-[10px]">
                       {count}
                     </span>
                     <button
-                      className="bg-gradient-to-r from-teal-400 to-teal-500 text-white font-bold rounded-l px-4 py-2 shadow-lg hover:opacity-75 transition duration-300 ease-in-out"
+                      className="bg-gradient-to-r from-teal-500 to-teal-400 text-white font-bold rounded-r px-4 py-[8px] shadow-lg hover:opacity-75 transition duration-300 ease-in-out"
                       onClick={incrementCount}
                     >
                       +

@@ -42,6 +42,8 @@ router.post(
         const productData = req.body;
         productData.images = imagesLinks;
         productData.shop = shop;
+        product.stock = stock;
+        product.sold_out = sold_out;
 
         const product = await Product.create(productData);
 
@@ -91,7 +93,7 @@ router.delete(
         );
       }
     
-      await product.remove();
+      await product.deleteOne();
 
       res.status(201).json({
         success: true,

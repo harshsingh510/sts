@@ -14,7 +14,7 @@ const AdminHeader = () => {
       <div>
         <Link to="..../public/sanjeevni-hardware-high-resolution-logo-transparent (1).png">
           <img
-            src="https://shopo.quomodothemes.website/assets/images/logo.svg"
+            src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYSwJzM9crDsICtobrgdEmo2aHq4Wd0z-RHlMlc08hJHEXs76ldxp7UtrJNWj_KM1-mDgKLLjGPPFUGecOBIPxapsCn3mA=w1920-h948"
             alt=""
           />
         </Link>

@@ -37,7 +37,7 @@ const Footer = () => {
       <div className="grid grid-cols-1 sm:gird-cols-3 lg:grid-cols-4 gap-6 sm:px-8 px-5 py-16 sm:text-center">
         <ul className="px-5 text-center sm:text-start flex sm:block flex-col items-center">
           <img
-            src="https://shopo.quomodothemes.website/assets/images/logo.svg"
+            src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYSndu4FnwViL9I8dYYZVOZuYL-oOU-2vE_F84bbCyw6JlzlkZf_0ZWy61D2ZwMZ5mCX_c3LmIbVJu_0el-10lXbjIe7vQ=w1920-h948"
             alt=""
             style={{ filter: "brightness(0) invert(1)" }}
           />
@@ -110,7 +110,7 @@ const Footer = () => {
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10
          text-center pt-2 text-gray-400 text-sm pb-8"
       >
-        <span>© 2020 Becodemy. All rights reserved.</span>
+        <span>© 2024 Harsh Singh. All rights reserved.</span>
         <span>Terms · Privacy Policy</span>
         <div className="sm:block flex items-center justify-center w-full">
           <img

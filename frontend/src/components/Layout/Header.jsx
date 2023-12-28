@@ -58,7 +58,7 @@ const Header = ({ activeHeading }) => {
           <div className="hidden 800px:h-[50px] 800px:my-[20px] 800px:flex items-left justify-between">
             <Link to="/">
               <img
-                src="https://drive.google.com/file/d/1Ah_uUAbH2qIxsnEelBp7uYY36mdGkz66/view?usp=sharing"
+                src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYRjqMO2lMJPZyyu60ShsnX7-qIgQCh3XsM8VIgrMWIzsk2uTvQb8HISuXU2FerqFQ-aoTkBrhg3FFQhYJc0G9V7B-xDFw=w1920-h897"
                 alt=""
               />
             </Link>
@@ -217,7 +217,7 @@ const Header = ({ activeHeading }) => {
           <div>
             <Link to="/">
               <img
-                src="https://shopo.quomodothemes.website/assets/images/logo.svg"
+                src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYRjqMO2lMJPZyyu60ShsnX7-qIgQCh3XsM8VIgrMWIzsk2uTvQb8HISuXU2FerqFQ-aoTkBrhg3FFQhYJc0G9V7B-xDFw=w1920-h897"
                 alt=""
                 className="mt-3 cursor-pointer"
               />
