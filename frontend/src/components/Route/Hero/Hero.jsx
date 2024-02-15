@@ -8,7 +8,7 @@ const Hero = () => {
       className={`relative min-h-[70vh] 800px:min-h-[80vh] w-full bg-no-repeat ${styles.noramlFlex}`}
       style={{
         backgroundImage:
-          "url(https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYS2cqU3_eFcCTRGK6YXD_pTTEOlGbr4fs816ccQWmapx1ueU2rr1HomsKMmsZH6MG5dytZ7EYqIqEKtpXUguq5Pbw1n=w1920-h948)",
+          "url(https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYQsSvikRIpG73Ov6xF_5DLUhx5YpLe9XzEM4gNSeucHzcPJ-GQMeP-_Kcmms3nQ-_5270TADd92RdnO3V6RForCPAEh=w1920-h948)",
       }}
     >
       <div className={`${styles.section} w-[90%] 800px:w-[60%]`}>

@@ -38,14 +38,16 @@ router.post(
             url: result.secure_url,
           });
         }
-      
+        
         const productData = req.body;
+        // const product = req.body;
         productData.images = imagesLinks;
         productData.shop = shop;
-        product.stock = stock;
-        product.sold_out = sold_out;
-
+        
         const product = await Product.create(productData);
+        // product.stock = stock;
+        // product.sold_out = sold_out;
+
 
         res.status(201).json({
           success: true,

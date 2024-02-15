@@ -12,9 +12,9 @@ const AdminHeader = () => {
   return (
          <div className="w-full h-[80px] bg-white shadow sticky top-0 left-0 z-30 flex items-center justify-between px-4">
       <div>
-        <Link to="..../public/sanjeevni-hardware-high-resolution-logo-transparent (1).png">
+        <Link to="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYQkpjOOeWjFPf8AO13jD3mUWSLnCmZO_0Od-i5CBwkc_lLyw-iTuEugol03Jj2sN71xMMsfQYc2QBgBZK_JrqkDW5wsCg=w1920-h897">
           <img
-            src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYSwJzM9crDsICtobrgdEmo2aHq4Wd0z-RHlMlc08hJHEXs76ldxp7UtrJNWj_KM1-mDgKLLjGPPFUGecOBIPxapsCn3mA=w1920-h948"
+            src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYQkpjOOeWjFPf8AO13jD3mUWSLnCmZO_0Od-i5CBwkc_lLyw-iTuEugol03Jj2sN71xMMsfQYc2QBgBZK_JrqkDW5wsCg=w1920-h897"
             alt=""
           />
         </Link>

@@ -13,7 +13,7 @@ const DashboardHeader = () => {
       <div>
         <Link to="/dashboard">
           <img
-            src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYRjqMO2lMJPZyyu60ShsnX7-qIgQCh3XsM8VIgrMWIzsk2uTvQb8HISuXU2FerqFQ-aoTkBrhg3FFQhYJc0G9V7B-xDFw=w1920-h897"
+            src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYQkpjOOeWjFPf8AO13jD3mUWSLnCmZO_0Od-i5CBwkc_lLyw-iTuEugol03Jj2sN71xMMsfQYc2QBgBZK_JrqkDW5wsCg=w1920-h897"
             alt=""
           />
         </Link>

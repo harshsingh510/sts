@@ -58,7 +58,7 @@ const Header = ({ activeHeading }) => {
           <div className="hidden 800px:h-[50px] 800px:my-[20px] 800px:flex items-left justify-between">
             <Link to="/">
               <img
-                src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYRjqMO2lMJPZyyu60ShsnX7-qIgQCh3XsM8VIgrMWIzsk2uTvQb8HISuXU2FerqFQ-aoTkBrhg3FFQhYJc0G9V7B-xDFw=w1920-h897"
+                src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYQkpjOOeWjFPf8AO13jD3mUWSLnCmZO_0Od-i5CBwkc_lLyw-iTuEugol03Jj2sN71xMMsfQYc2QBgBZK_JrqkDW5wsCg=w1920-h897"
                 alt=""
               />
             </Link>
@@ -204,7 +204,7 @@ const Header = ({ activeHeading }) => {
         className={`${
           active === true ? "shadow-sm fixed top-0 left-0 z-10" : null
         }
-      w-full h-[60px] bg-[#fff] z-50 top-0 left-0 shadow-sm 800px:hidden`}
+      w-full h-[85px] bg-[#fff] z-50 top-0 left-0 shadow-sm 800px:hidden`}
       >
         <div className="w-full flex items-center justify-between">
           <div>
@@ -217,7 +217,7 @@ const Header = ({ activeHeading }) => {
           <div>
             <Link to="/">
               <img
-                src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYRjqMO2lMJPZyyu60ShsnX7-qIgQCh3XsM8VIgrMWIzsk2uTvQb8HISuXU2FerqFQ-aoTkBrhg3FFQhYJc0G9V7B-xDFw=w1920-h897"
+                src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYQkpjOOeWjFPf8AO13jD3mUWSLnCmZO_0Od-i5CBwkc_lLyw-iTuEugol03Jj2sN71xMMsfQYc2QBgBZK_JrqkDW5wsCg=w1920-h897"
                 alt=""
                 className="mt-3 cursor-pointer"
               />
